@@ -18,7 +18,7 @@ An Example of Ruby API for Google Gloud DataStore.
 
     # add bookshelf entry:
     $ sparrow plg run gcp-data-store-bookshelf \
-    --param project_id=cp100-184709 --param action=add  \
+    --param project_id=$project_id --param action=add  \
     --param title="War and World" \
     --param author="Лев Николаевич Толстой" \
     --param desciption="School Reading"
@@ -27,7 +27,7 @@ An Example of Ruby API for Google Gloud DataStore.
 
 ## project_id
 
-Should be a google project ID
+Should be a Google project ID
 
 
 # Author
